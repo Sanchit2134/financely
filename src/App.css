@@ -1,0 +1,16 @@
+.wrapper,.chart-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.chart-wrapper{
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    margin: 2rem;
+}

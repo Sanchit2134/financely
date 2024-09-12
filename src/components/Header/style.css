@@ -1,0 +1,80 @@
+/* .navbar{
+    background-color: var(--theme);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    z-index: 1000;
+}
+.logo{
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.logo-link{
+    opacity: 0.5;
+    cursor: pointer;
+    color: var(--white);
+    margin-right: 10px;
+
+}
+.logo-link:hover{
+    opacity: 1;
+    transition: all 0.3s;
+
+} */
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+.navbar {
+    background-color: var(--theme);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+.logo {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  
+.logo-link {
+    opacity: 0.5;
+    cursor: pointer;
+    color: var(--white);
+    margin-right: 10px;
+  }
+  
+.logo-link:hover {
+    opacity: 1;
+    transition: all 0.3s;
+  }
+  
+.user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+.user-img {
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+main {
+    padding-top: 3rem; /* Adjust this value based on the height of your navbar */
+  }
